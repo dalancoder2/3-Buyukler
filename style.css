@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  /* overflow: hidden; */
+}
+body {
+  background-color: rgb(230, 228, 228);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.5rem;
+  font-variant: small-caps;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.gslogo {
+  background-image: url(gslogo3.jpg);
+  width: 20%;
+  height: 13vh;
+  border: 1px solid pink;
+  background-size: cover;
+  background-position: center; 
+ 
+}
+
+.gslogo:hover {
+  background-image: url(gs\ logo1.jpg);
+  transform:translate(50px, -50px);
+  transition: transform 0.7s ease;
+}
+
+.fenerlogo {
+  background-image: url(fblogo1.jpg);
+  width: 20%;
+  height: 13vh;
+  border: 1px solid pink;
+  background-size: cover;
+  background-position: center;
+}
+
+.bjklogo {
+  background-image: url(bjklogo.png);
+  width: 20%;
+  height: 13vh;
+  border: 1px solid pink;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner {
+  width: 100%;
+  height: 23vh;
+  background-image: url(gs_logo_bayrak.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+#gstext {
+  text-align: center;
+  padding: 10px;
+  margin: 60px 20px;
+  letter-spacing: 1.5px;
+
+  font-size: 3rem;
+  color: yellow;
+  font-variant: small-caps;
+}
+
+.kupa {
+  background-image: url(kupaBGsifir\ \(1\).png);
+
+  width: 24%;
+  height: 23vh;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.team {
+  width: 30vw;
+  height: 54vh;
+  font-size: 2rem;
+  overflow: auto;
+
+  margin: 10px 25px;
+}
+.team1:hover{
+transform: scale(1.1);
+transition: transform 0.7s ease;
+}
+
+
+
+.team1::-webkit-scrollbar {
+  width: 10px;
+  background-color: red;
+  border-left: 2px solid red;
+}
+::-webkit-scrollbar-thumb {
+  background-color: yellow;
+}
+
+.team1::-webkit-scrollbar-button{
+background-color: black;
+}
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: yellow;
+} */
+
+.team2::-webkit-scrollbar {
+  width: 10px;
+  background-color: yellow;
+  border-left: 2px solid red;
+}
+.team2::-webkit-scrollbar-thumb {
+  background-color: blue;
+}
+  /* ::-webkit-scrollbar-thumb:hover {
+  background-color: red; 
+}  */
+
+.team3::-webkit-scrollbar {
+  width: 10px;
+  background-color: white;
+  border-left: 2px solid white;
+}
+.team3::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+.team3::-webkit-scrollbar-thumb:hover {
+  background-color: white;
+}
+.team p {
+  text-indent: 2cm;
+}
+
+.team h2 {
+  text-align: center;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+#gs1 {
+  background: linear-gradient(rgba(219, 210, 210, 0.9), rgba(0, 0, 0, 0.5)),
+    url("gs\ stadyum.jpg");
+  background-size: cover;
+  border: 1px solid red;
+}
+
+#fener {
+  background: linear-gradient(rgba(219, 210, 210, 0.9), rgba(0, 0, 0, 0.5)),
+    url(fener\ stadyum.jpg);
+  background-size: cover;
+  border: 1px solid red;
+}
+
+#beşik {
+  background: linear-gradient(rgba(219, 210, 210, 0.9), rgba(0, 0, 0, 0.5)),
+    url(beşiktas\ stadyum.jpg);
+  background-size: cover;
+  border: 1px solid red;
+}
+
+.footer {
+  width: 100%;
+  height: 3vh;
+  border: 1px solid black;
+  background-color: rgb(101, 100, 100);
+  font-size: 15;
+  text-align: center;
+  padding: 10px;
+}
+
+.team1:hover::-webkit-scrollbar-thumb{
+  background-color: blueviolet;
+  }
